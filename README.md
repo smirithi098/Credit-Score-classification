@@ -25,19 +25,19 @@ Check out the code here: [Code file](classification_model.ipynb)
 
 The distribution plot shows that the dataset is imbalanced, with certain ratings having significantly more instances than others.
 
-![Distribution of the target variable](assets\distribution_plot.png)
+![Distribution of the target variable](assets/distribution_plot.png)
 
 ### 2. Correlation Heatmap
 
 The heatmap reveals the relationships between different financial metrics. Highly correlated features can be identified, which may indicate redundancy.
 
-![Correlation plot](assets\correlation_plot.png)
+![Correlation plot](assets/correlation_plot.png)
 
 ### 3. Box plot for financial metrics i.e. feature variables
 
 These plots illustrate the distribution, skewness, and presence of outliers for key financial metrics across different ratings. For example, higher ratings might show higher median values for certain metrics like EBITDA.
 
-![Box plot](assets\box_plot.png)
+![Box plot](assets/box_plot.png)
 
 ## Model Implementation Results
 
@@ -72,7 +72,7 @@ The logistic regression and random forest models were both implemented and evalu
 
 #### Confusion Matrix
 
-![Confusion matrix - logistic regression](assets\cm_logit.png)
+![Confusion matrix - logistic regression](assets/cm_logit.png)
 
 ### Random Forest Classifier
 
@@ -101,7 +101,7 @@ The logistic regression and random forest models were both implemented and evalu
 
 #### Confusion Matrix
 
-![Confusion matrix - Random Forest](assets\cm_rf.png)
+![Confusion matrix - Random Forest](assets/cm_rf.png)
 
 ## Conclusion
 
